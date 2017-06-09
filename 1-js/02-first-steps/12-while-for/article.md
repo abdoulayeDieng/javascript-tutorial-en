@@ -380,7 +380,7 @@ The call to a `break/continue` is only possible from inside the loop, and the la
 We covered 3 types of loops:
 
 - `while` -- the condition is checked before each iteration.
-- `do..while` -- the condition is checked after each iteration.
+- `do..while` -- the condition is checked after the first iteration. For next iterations, the condition is checked before.
 - `for(;;)` -- the condition is checked before each iteration, additional settings available.
 
 To make an "infinite" loop, usually the `while(true)` construct is used. Such a loop, just like any other, can be stopped with the `break` directive.
